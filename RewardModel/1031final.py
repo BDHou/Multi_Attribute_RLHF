@@ -895,7 +895,7 @@ print("[D0 ready] You can run D1–D3 now when files are available.")
 # - Quiet LassoCV with robust settings
 # - Minimal, informative prints
 # ==========================================================
-from __future__ import annotations
+# from __future__ import annotations
 import os, json, warnings
 from pathlib import Path
 from typing import Dict
