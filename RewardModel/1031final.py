@@ -7,11 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1ISCH9xGCOfsGFsMfhByvhr6f3KdtqSaM
 """
 
-# A0: Install deps (Colab)
-!pip -q install datasets transformers sentence-transformers textstat accelerate
+# # A0: Install deps (Colab)
+# !pip -q install datasets transformers sentence-transformers textstat accelerate
 
-# A0: Install deps (Colab)
-!pip -q install datasets transformers sentence-transformers textstat accelerate
+# # A0: Install deps (Colab)
+# !pip -q install datasets transformers sentence-transformers textstat accelerate
 
 """	•	先把管线跑通后再加量：TRAIN_SIZE=None, TEST_SIZE=None
 	•	UNFREEZE_TOP_N = 4，MAX_LEN = 2048（卡允许）
