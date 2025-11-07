@@ -10,7 +10,7 @@ https://huggingface.co/weqweasdas/hh_rlhf_rm_open_llama_3b
 """
 
 # A0: Install deps (Colab)
-!pip -q install datasets transformers sentence-transformers textstat accelerate
+# !pip -q install datasets transformers sentence-transformers textstat accelerate
 
 # A1: Setup & config
 import os, math, random, re, json
