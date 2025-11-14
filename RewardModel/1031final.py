@@ -53,8 +53,8 @@ if torch.cuda.is_available():
 # --- Config ---
 MODEL_NAME      = "EleutherAI/gpt-neo-125M"
 DATASET_NAME    = "Dahoas/full-hh-rlhf"
-TRAIN_SIZE      = 6000     # set None for full train
-TEST_SIZE       = 600      # set None for full test
+TRAIN_SIZE      = None     # set None for full train
+TEST_SIZE       = None     # set None for full test
 MAX_LEN         = 1536     # safe joint length fed to model (≤ model max pos)
 BATCH           = 8
 FREEZE_BACKBONE = True

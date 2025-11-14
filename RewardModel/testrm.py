@@ -33,8 +33,8 @@ print("Device:", device)
 
 # A2: Load dataset
 DATASET_NAME    = "Dahoas/full-hh-rlhf"
-TRAIN_SIZE      = 6000     # set None for full train
-TEST_SIZE       = 600      # set None for full test
+TRAIN_SIZE      = None     # set None for full train
+TEST_SIZE       = None     # set None for full test
 ds = load_dataset(DATASET_NAME)
 train_split = ds["train"]
 test_split  = ds["test"]
